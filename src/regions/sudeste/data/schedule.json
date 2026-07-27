@@ -1,1 +1,184 @@
-[]
+[
+    {
+        "time": "09:00",
+        "title": "Credenciamento",
+        "speaker": "",
+        "track": "Geral",
+        "level": ""
+    },
+    {
+        "time": "09:30",
+        "title": "Welcome Coffee",
+        "speaker": "",
+        "track": "Geral",
+        "level": ""
+    },
+    {
+        "time": "10:00",
+        "title": "Abertura",
+        "speaker": "Organização",
+        "track": "Geral",
+        "level": ""
+    },
+    {
+        "time": "10:30",
+        "title": "Keynote — Liderar na era da IA, o que um modelo de IA não entrega",
+        "speaker": "Marcelo Palladino",
+        "track": "Plenária",
+        "level": ""
+    },
+    {
+        "time": "11:00",
+        "title": "Hands-on Kiro",
+        "speaker": "Carlos Marangon",
+        "track": "Palco Dinâmico",
+        "level": ""
+    },
+    {
+        "time": "11:00",
+        "title": "Tagging além de key-values: controle de acesso baseado em Tags",
+        "speaker": "Lays Rodrigues",
+        "track": "Palco 1",
+        "level": "Intermediário"
+    },
+    {
+        "time": "11:00",
+        "title": "Agora serverless tem servidores. E agora?",
+        "speaker": "Evandro Pires",
+        "track": "Palco 2",
+        "level": "Iniciante"
+    },
+    {
+        "time": "11:30",
+        "title": "Como a estratégia de FinOps pode direcionar as estratégias de modernização tecnológica",
+        "speaker": "Camilo Giannella",
+        "track": "Palco 1",
+        "level": "Intermediário"
+    },
+    {
+        "time": "11:30",
+        "title": "Negócios perdem clientes porque ninguém responde fora do horário: a solução com Amazon Bedrock",
+        "speaker": "Livia Mor",
+        "track": "Palco 2",
+        "level": "Iniciante"
+    },
+    {
+        "time": "12:00",
+        "title": "K8S For Dummies: venha entender a lógica por trás do Kubernetes",
+        "speaker": "Samantha Chiachio",
+        "track": "Palco 1",
+        "level": "Intermediário"
+    },
+    {
+        "time": "12:00",
+        "title": "Seu agente de IA irá para produção?",
+        "speaker": "Ed Carlos Marinho",
+        "track": "Palco 2",
+        "level": "Iniciante"
+    },
+    {
+        "time": "13:00",
+        "title": "Almoço",
+        "speaker": "",
+        "track": "Geral",
+        "level": ""
+    },
+    {
+        "time": "14:00",
+        "title": "Workshop GenAI no EKS",
+        "speaker": "Tiago Reichert e João Guilherme",
+        "track": "Palco Dinâmico",
+        "level": ""
+    },
+    {
+        "time": "14:00",
+        "title": "PGVector no Aurora PostgreSQL Serverless v2: armazenamento e recuperação vetorial para Agentes de IA",
+        "speaker": "Mariana Mercier",
+        "track": "Palco 1",
+        "level": "Intermediário"
+    },
+    {
+        "time": "14:00",
+        "title": "TBD",
+        "speaker": "TBD",
+        "track": "Palco 2",
+        "level": "Iniciante"
+    },
+    {
+        "time": "14:30",
+        "title": "Segurança na era do desenvolvimento com IA: Kiro e AWS Security Agent em prática",
+        "speaker": "Dan Rezende",
+        "track": "Palco 1",
+        "level": "Intermediário"
+    },
+    {
+        "time": "14:30",
+        "title": "Entendendo redes na AWS: VPC, subnets e conectividade na prática",
+        "speaker": "Arthur Nycael",
+        "track": "Palco 2",
+        "level": "Iniciante"
+    },
+    {
+        "time": "15:00",
+        "title": "Construí em 72h a plataforma inteira de uma comunidade técnica global, sem escrever código manualmente",
+        "speaker": "Ricardo Gulias",
+        "track": "Palco 1",
+        "level": "Intermediário"
+    },
+    {
+        "time": "15:00",
+        "title": "Tech como ecossistema: como se encontrar entre áreas, escolhas e transições",
+        "speaker": "Naiara Medeiros",
+        "track": "Palco 2",
+        "level": "Iniciante"
+    },
+    {
+        "time": "15:30",
+        "title": "Coffee Break",
+        "speaker": "",
+        "track": "Geral",
+        "level": ""
+    },
+    {
+        "time": "16:00",
+        "title": "Construa uma Solução de IA Multi-Agente com Amazon Aurora e Bedrock AgentCore",
+        "speaker": "William Lino",
+        "track": "Palco 1",
+        "level": "Intermediário"
+    },
+    {
+        "time": "16:00",
+        "title": "Kiro IDE na prática: como entregamos engenharia com IA",
+        "speaker": "Lucas Israel",
+        "track": "Palco 2",
+        "level": "Iniciante"
+    },
+    {
+        "time": "16:30",
+        "title": "Observabilidade para aplicações web: o que monitorar além do \"está no ar?\"",
+        "speaker": "Thamiris Adriano",
+        "track": "Palco 1",
+        "level": "Intermediário"
+    },
+    {
+        "time": "16:30",
+        "title": "Vibe Coding",
+        "speaker": "Raphael Moura",
+        "track": "Palco 2",
+        "level": "Iniciante"
+    },
+    {
+        "time": "17:00",
+        "title": "Keynote Internacional (a confirmar)",
+        "speaker": "A confirmar",
+        "track": "Plenária",
+        "level": ""
+    },
+    {
+        "time": "17:30 - 18:00",
+        "title": "Encerramento",
+        "speaker": "Organização",
+        "track": "Geral",
+        "level": ""
+    }
+]
