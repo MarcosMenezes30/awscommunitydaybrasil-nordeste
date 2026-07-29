@@ -215,5 +215,29 @@
         "social": {
             "linkedin": "https://www.linkedin.com/in/joaogac"
         }
+    },
+    {
+        "name": "Ricardo Gulias",
+        "photo": "ricardo-gulias.jpg",
+        "title": "Technical Account Manager",
+        "company": "Darede Serviços de TI",
+        "talk": "Construí em 72h a plataforma inteira de uma comunidade técnica global, sem escrever código manualmente",
+        "bio": "",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/gulias/"
+        }
+    },
+    {
+        "name": "Thamiris Adriano",
+        "photo": "thamiris-adriano.jpg",
+        "title": "IT Analyst",
+        "company": "F1RST Digital Services",
+        "talk": "Observabilidade para aplicações web: o que monitorar além do \"está no ar?\"",
+        "bio": "",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/thamirisdasilva/"
+        }
     }
 ]
