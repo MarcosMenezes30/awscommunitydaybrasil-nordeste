@@ -10,6 +10,15 @@ interface CallForSpeakersSectionProps {
 const CallForSpeakersSection = ({ url, config, formattedDate }: CallForSpeakersSectionProps) => {
   const { ref, isVisible } = useScrollAnimation();
 
+  // Se regionDateLimit estiver definido e a data já passou, não exibe a seção
+  if (config.regionDateLimit) {
+    const [day, month, year] = config.regionDateLimit.split("/").map(Number);
+    const limitDate = new Date(year, month - 1, day, 23, 59, 59);
+    if (new Date() > limitDate) {
+      return null;
+    }
+  }
+
   return (
     <section className="py-20 bg-background">
       <div className="container max-w-3xl">
@@ -28,9 +37,11 @@ const CallForSpeakersSection = ({ url, config, formattedDate }: CallForSpeakersS
             As submissões para o AWS Community Day {config.regionName} 2026 estão abertas!<br />
             Se você quer compartilhar experiências, aprendizados, ideias ou soluções com a comunidade AWS, convidamos você a submeter sua palestra e fazer parte deste grande encontro.
           </p>
-          <p className="text-sm text-muted-foreground mb-8">
-            Data limite para submissão de propostas: 31/08/2026
-          </p>
+          {config.regionDateLimit && (
+            <p className="text-sm text-muted-foreground mb-8">
+              Data limite para submissão de propostas: {config.regionDateLimit}
+            </p>
+          )}
           <a
             href={url}
             target="_blank"
