@@ -118,7 +118,10 @@ Quando a data do evento (`targetDate`) é anterior à data atual, a página da r
 | Palestrantes | "Quem vai palestrar" | "Quem palestrou" |
 | Header | Botão "Inscreva-se" | Sem botão |
 | Seções opcionais | Call for Speakers/Sponsors, O que esperar | Removidas |
+| Call for Speakers | Exibido (removido automaticamente após `regionDateLimit`) | Removido |
 | Comunidades | Não exibido | Links das comunidades regionais (se configurado) |
+
+> **Nota:** O card de Call for Speakers é removido automaticamente quando a data configurada em `regionDateLimit` (formato `DD/MM/YYYY`) é ultrapassada. Isso permite que cada região defina seu próprio prazo de submissão independente da data do evento.
 
 ### Configuração de evento passado
 
@@ -198,15 +201,20 @@ Define nome, data, local, inscrição, redes sociais, grupos de usuários e dado
 | `socialLinks` | `object` | ✅ | Links de redes sociais |
 | `userGroups` | `array` | ✅ | Lista de user groups com `name` e `url` |
 | `callForSpeakersUrl` | `string` | ❌ | URL do Call for Speakers (não exibido se evento passado) |
+| `regionDateLimit` | `string` | ❌ | Data limite para submissão de propostas (ex: "31/08/2026"). Exibida na seção Call for Speakers |
 | `callForSponsorsUrl` | `string` | ❌ | URL do Call for Sponsors (não exibido se evento passado) |
 | `contact.email` | `string` | ✅ | Email de contato |
 | `contact.website` | `string` | ✅ | URL do site |
+| `communities` | `array` | ❌ | Comunidades da região (exibido em eventos passados ou quando configurado) |
+| `communities[].name` | `string` | ✅ | Nome da comunidade |
+| `communities[].url` | `string` | ✅ | Link (Instagram, Meetup, etc.) |
+| `communities[].icon` | `string` | ❌ | Ícone: `"instagram"`, `"meetup"` (padrão: ícone genérico) |
 | `pastEvent` | `object` | ❌ | Dados de evento passado (ver abaixo) |
 | `pastEvent.photosUrl` | `string` | ❌ | Link da galeria de fotos |
 | `pastEvent.communities` | `array` | ❌ | Comunidades da região |
 | `pastEvent.communities[].name` | `string` | ✅ | Nome da comunidade |
 | `pastEvent.communities[].url` | `string` | ✅ | Link (Instagram, Meetup, etc.) |
-| `pastEvent.communities[].icon` | `string` | ❌ | Ícone: `"instagram"` (padrão: ícone genérico) |
+| `pastEvent.communities[].icon` | `string` | ❌ | Ícone: `"instagram"`, `"meetup"` (padrão: ícone genérico) |
 
 ---
 
