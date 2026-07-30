@@ -13,15 +13,15 @@
     "url": "https://abicora.com/aws-community-day-brasil-edicao-norte-belem-pa"
   },
   "socialLinks": {
-    "instagram": "https://www.instagram.com/awscommunitydaybr/",
-    "linkedin": "https://www.linkedin.com/company/aws-community-day-brasil/",
-    "twitter": "https://twitter.com/awscommunitybr",
+    "instagram": "https://www.instagram.com/awscommunitydaynorte/",
+    "linkedin": "https://www.linkedin.com/showcase/awscommunitydaynorte/",
     "youtube": "https://www.youtube.com/@AWSUserGroupBrasil"
   },
   "userGroups": [
     { "name": "AWS User Group Belém", "url": "https://www.meetup.com/pt-BR/awsbelem/" },
     { "name": "AWS User Group Castanhal", "url": "https://www.meetup.com/pt-BR/aws-user-group-castanhal/" },
-    { "name": "AWS User Group Manaus", "url": "https://www.meetup.com/aws-user-group-manaus/" }
+    { "name": "AWS User Group Manaus", "url": "https://www.meetup.com/aws-user-group-manaus/" },
+    { "name": "AWS User Group Tucuruí", "url": "https://www.meetup.com/aws-user-group-tucurui/" }
 
   ],
   "studentBuilderGroups": [
@@ -31,9 +31,52 @@
     { "name": "AWS Student Builder Group UFPA", "url": "https://www.meetup.com/aws-sbg-at-federal-university-of-para" }
   ],
   "callForSpeakersUrl": "https://abicora.com/aws-community-day-brasil-edicao-norte-belem-pa/cfp",
+  "regionDateLimit": "16/08/2026",
   "callForSponsorsUrl": "https://forms.gle/5RgK9mwAALkDT4XG6",
   "contact": {
     "email": "norte@awscommunity.com.br",
     "website": "https://www.awscommunityday.com.br"
-  }
+  },
+  "communities": [
+    {
+      "name": "AWS User Group Belém",
+      "url": "https://www.meetup.com/awsbelem/",
+      "icon": "meetup"
+    },
+    {
+      "name": "AWS User Group Castanhal",
+      "url": "https://www.meetup.com/aws-user-group-castanhal/",
+      "icon": "meetup"
+    },
+    {
+      "name": "AWS User Group Manaus",
+      "url": "https://www.meetup.com/aws-user-group-manaus/",
+      "icon": "meetup"
+    },
+    {
+      "name": "AWS User Group Tucuruí",
+      "url": "https://www.meetup.com/aws-user-group-tucurui/",
+      "icon": "meetup"
+    },
+    {
+      "name": "AWS SBG at Federal Institute of Pará - Belem Campus",
+      "url": "https://www.meetup.com/aws-sbg-at-federal-institute-of-para-belem-campus",
+      "icon": "meetup"
+    },
+    {
+      "name": "AWS SBG at Federal University of Pará - Belem Campus",
+      "url": "https://www.meetup.com/aws-sbg-at-federal-university-of-para-belem/",
+      "icon": "meetup"
+    },
+    {
+      "name": "AWS SBG at State University of Para - Ananindeua Campus XXII",
+      "url": "https://www.meetup.com/aws-sbg-state-university-of-para-ananindeua-campus-xxii/",
+      "icon": "meetup"
+    },
+    {
+      "name": "AWS SBG at University of Amazonia - Belem",
+      "url": "https://www.meetup.com/aws-sbg-at-university-of-the-amazonia-belem/",
+      "icon": "meetup"
+    }
+  ]
 }
