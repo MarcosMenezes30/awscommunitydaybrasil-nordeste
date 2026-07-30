@@ -6,9 +6,27 @@
     "tier": "diamond"
   },
   {
+    "name": "Darede",
+    "logo": "sponsors/darede.png",
+    "url": "https://darede.com.br/",
+    "tier": "diamond"
+  },
+  {
     "name": "Escola AWS",
     "logo": "sponsors/escola-aws.png",
     "url": "https://www.escolaaws.com.br/",
+    "tier": "silver"
+  },
+  {
+    "name": "COTEMIG",
+    "logo": "sponsors/cotemig.png",
+    "url": "https://www.cotemig.com.br/",
+    "tier": "silver"
+  },
+  {
+    "name": "Lucralize",
+    "logo": "sponsors/lucralize.png",
+    "url": "https://lucralize.com.br/",
     "tier": "silver"
   },
   {

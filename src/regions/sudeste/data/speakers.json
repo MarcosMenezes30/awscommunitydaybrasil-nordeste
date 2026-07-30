@@ -12,6 +12,18 @@
         }
     },
     {
+        "name": "Marcelo Palladino",
+        "photo": "palla.jpg",
+        "title": "Diretor AI & Modernization",
+        "company": "Dati",
+        "talk": "Liderar na era da IA: o que um modelo de IA não entrega",
+        "bio": "Marcelo Palladino é Diretor de AI & Modernization na DATI. Tem mais de três décadas de atuação na indústria de software, atuando como desenvolvedor, arquiteto e líder técnico em dezenas de empresas, com passagens pela AWS e pelo Nubank. Seu trabalho hoje é conectar pessoas e organizações à inovação real em IA e nuvem, arquitetura de software moderna, boas práticas de engenharia de software e adoção que funciona em larga escala.",
+        "keynote": true,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/mfpalladino/"
+        }
+    },
+    {
         "name": "Lays Rodrigues",
         "photo": "lays-rodrigues.jpg",
         "title": "Senior Software Engineer",
@@ -202,6 +214,43 @@
         "keynote": false,
         "social": {
             "linkedin": "https://www.linkedin.com/in/joaogac"
+        }
+    },
+    {
+        "name": "Ricardo Gulias",
+        "photo": "ricardo-gulias.jpg",
+        "title": "Technical Account Manager",
+        "company": "Darede Serviços de TI",
+        "talk": "Construí em 72h a plataforma inteira de uma comunidade técnica global, sem escrever código manualmente",
+        "bio": "",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/gulias/"
+        }
+    },
+    {
+        "name": "Thamiris Adriano",
+        "photo": "thamiris-adriano.jpg",
+        "title": "IT Analyst",
+        "company": "F1RST Digital Services",
+        "talk": "Observabilidade para aplicações web: o que monitorar além do \"está no ar?\"",
+        "bio": "",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/thamirisdasilva/"
+        }
+    },
+    {
+        "name": "Livia Mor",
+        "photo": "livia-mor.jpg",
+        "title": "Developer",
+        "company": "The Door",
+        "talk": "Negócios perdem clientes porque ninguém responde fora do horário: a solução com Amazon Bedrock",
+        "bio": "Desenvolvedora Full Stack dando os primeiros passos rumo às certificações AWS. Atuei por mais de 15 anos na Odontologia e fiz da minha bagagem clínica o meu primeiro grande use case, desenvolvendo aplicações reais para resolver gargalos que vivenciei na prática. Sou apaixonada por tecnologia e acredito genuinamente que o estudo transforma realidades. Defensora ativa do poder das comunidades tech para o crescimento profissional e pessoal.",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/liviamor/",
+            "instagram": "https://www.instagram.com/liviamor/"
         }
     }
 ]

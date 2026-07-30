@@ -20,6 +20,7 @@ import rafaelPhoto from "./assets/rafael-fernandes.jpg";
 import veronicaPhoto from "./assets/veronica-torres.jpg";
 
 import darkoPhoto from "./assets/speakers/darko-mesaros.jpg";
+import pallaPhoto from "./assets/speakers/palla.jpg";
 import arthurPhoto from "./assets/speakers/arthur-nycael.jpg";
 import danPhoto from "./assets/speakers/dan-rezende.jpg";
 import laysPhoto from "./assets/speakers/lays-rodrigues.jpg";
@@ -35,11 +36,17 @@ import raphaelPhoto from "./assets/speakers/raphael-moura.jpg";
 import linoPhoto from "./assets/speakers/william-lino.jpg";
 import tiagoPhoto from "./assets/speakers/tiago-reichert.jpg";
 import joaoPhoto from "./assets/speakers/joao-cesar.jpg";
+import ricardoPhoto from "./assets/speakers/ricardo-gulias.jpg";
+import thamirisPhoto from "./assets/speakers/thamiris-adriano.jpg";
+import liviaPhoto from "./assets/speakers/livia-mor.jpg";
 
 import awsLogo from "./assets/sponsors/aws.png";
 import dayrellLogo from "./assets/sponsors/dayrell.png";
 import escolaawsLogo from "./assets/sponsors/escola-aws.png";
 import netminasLogo from "./assets/sponsors/net-minas.jpeg";
+import cotemigLogo from "./assets/sponsors/cotemig.png";
+import daredeLogo from "./assets/sponsors/darede.png";
+import lucralizeLogo from "./assets/sponsors/lucralize.png";
 
 const photoMap: Record<string, string> = {
   "rafaela-vidotti.jpg": rafaelaPhoto,
@@ -58,6 +65,7 @@ const photoMap: Record<string, string> = {
 
 const speakerPhotoMap: Record<string, string> = {
   "darko-mesaros.jpg": darkoPhoto,
+  "palla.jpg": pallaPhoto,
   "arthur-nycael.jpg": arthurPhoto,
   "dan-rezende.jpg": danPhoto,
   "lays-rodrigues.jpg": laysPhoto,
@@ -72,14 +80,20 @@ const speakerPhotoMap: Record<string, string> = {
   "raphael-moura.jpg": raphaelPhoto,
   "william-lino.jpg": linoPhoto,
   "tiago-reichert.jpg": tiagoPhoto,
-  "joao-cesar.jpg": joaoPhoto
+  "joao-cesar.jpg": joaoPhoto,
+  "ricardo-gulias.jpg": ricardoPhoto,
+  "thamiris-adriano.jpg": thamirisPhoto,
+  "livia-mor.jpg": liviaPhoto
 };
 
 const logoMap: Record<string, string> = {
   "aws.png": awsLogo,
   "dayrell.png": dayrellLogo,
   "escola-aws.png": escolaawsLogo,
-  "net-minas.jpeg": netminasLogo
+  "net-minas.jpeg": netminasLogo,
+  "cotemig.png": cotemigLogo,
+  "darede.png": daredeLogo,
+  "lucralize.png": lucralizeLogo
 };
 
 const resolvedOrganizers = organizers.map((org) => ({
