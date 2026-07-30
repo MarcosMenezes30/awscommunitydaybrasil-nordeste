@@ -239,5 +239,18 @@
         "social": {
             "linkedin": "https://www.linkedin.com/in/thamirisdasilva/"
         }
+    },
+    {
+        "name": "Livia Mor",
+        "photo": "livia-mor.jpg",
+        "title": "Developer",
+        "company": "The Door",
+        "talk": "Negócios perdem clientes porque ninguém responde fora do horário: a solução com Amazon Bedrock",
+        "bio": "Desenvolvedora Full Stack dando os primeiros passos rumo às certificações AWS. Atuei por mais de 15 anos na Odontologia e fiz da minha bagagem clínica o meu primeiro grande use case, desenvolvendo aplicações reais para resolver gargalos que vivenciei na prática. Sou apaixonada por tecnologia e acredito genuinamente que o estudo transforma realidades. Defensora ativa do poder das comunidades tech para o crescimento profissional e pessoal.",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/liviamor/",
+            "instagram": "https://www.instagram.com/liviamor/"
+        }
     }
 ]
