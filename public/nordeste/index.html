@@ -14,6 +14,7 @@
     <meta property="og:title" content="AWS Community Day Brasil 2026 - Nordeste (Salvador/BA)" />
     <meta property="og:description" content="AWS Community Day Brasil 2026 - Nordeste. Compartilhe e participe da edicao de Salvador." />
     <meta property="og:image" content="https://awscommunityday.com.br/og/nordeste.png?v=20260717" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Postcard oficial da edicao Nordeste" />
@@ -23,8 +24,13 @@
     <meta name="twitter:description" content="AWS Community Day Brasil 2026 - Nordeste. Compartilhe e participe da edicao de Salvador." />
     <meta name="twitter:image" content="https://awscommunityday.com.br/og/nordeste.png?v=20260717" />
     <script>
-      sessionStorage.redirect = location.href;
-      location.replace('/');
+      (function() {
+        var bots = /WhatsApp|facebookexternalhit|Facebot|Twitterbot|LinkedInBot|Slackbot|TelegramBot|Googlebot|bingbot|Discordbot/i;
+        if (!bots.test(navigator.userAgent)) {
+          sessionStorage.redirect = location.href;
+          location.replace('/');
+        }
+      })();
     </script>
   </head>
   <body></body>
