@@ -6,6 +6,12 @@
     "tier": "platinum"
   },
   {
+    "name": "Agile Inc",
+    "logo": "agile-inc.svg",
+    "url": "https://agile.inc",
+    "tier": "silver"
+  },
+  {
     "name": "Faci Wyden",
     "logo": "faciwyden.png",
     "url": "https://www.faculdadeideal.com.br/",
