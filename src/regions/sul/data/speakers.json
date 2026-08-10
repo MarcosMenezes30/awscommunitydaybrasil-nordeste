@@ -1,1 +1,98 @@
-[]
+[
+    {
+        "name": "Murilo Lang",
+        "photo": "murilo.png",
+        "title": "AWS Champion Instructor | AWS Golden Jacket | Tech Advisor",
+        "company": "Squad.Go",
+        "talk": "Previsão de demanda no varejo com AWS: lições de um projeto real com Amazon SageMaker",
+        "bio": "Murilo Lang atua há mais de 15 anos com infraestrutura, cloud computing, segurança e arquitetura de soluções. É AWS Champion Instructor e consultor em projetos de nuvem, automação, inteligência artificial e machine learning. Conduz treinamentos oficiais para centenas de pessoas anualmente, workshops, mentorias e projetos técnicos para empresas de diferentes segmentos, com foco em boas práticas de arquitetura, segurança, operação e uso estratégico de serviços gerenciados na AWS.\n\nSua atuação combina experiência prática em ambientes corporativos com forte vivência em educação técnica, ajudando times a transformar problemas reais de negócio em soluções escaláveis, seguras e bem arquitetadas na nuvem.",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/murilo-lang/"
+        }
+    },
+    {
+        "name": "Luciano Libardi",
+        "photo": "luciano.jpg",
+        "title": "Fundador da SMART ON · Professor de IA (UCS MBA AI for Business · Rocketseat)",
+        "company": "SMART ON",
+        "talk": "Sua carreira é um sistema legado? Refatorando 30 anos de TI na era da IA",
+        "bio": "Luciano Libardi tem 30 anos de carreira em TI, telecom e comercial — passando por empresas como Pettenati, TIM, Oi, Nextel, Vivo e Sicredi — antes de fundar a SMART ON, onde aplica inteligência artificial a pequenas e médias empresas. É professor no MBA de Artificial Intelligence for Business da UCS (Universidade de Caxias do Sul) e na pós-graduação Full Stack com IA da Faculdade Rocketseat. Já passou por mais de 15 palcos do circuito de IA — incluindo ExpoBento, Wine South America, TDC Summit e CONEDI — e mantém agentes de IA em produção atendendo clientes no dia a dia.",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/lucianolibardi/"
+        }
+    },
+    {
+        "name": "Leo Matayoshi",
+        "photo": "leo.png",
+        "title": "Arquiteto de Soluções e Empreendedor",
+        "company": "",
+        "talk": "Explorando o Streaming de Vídeo com IA e ML",
+        "bio": "Sou um profissional com mais de 25 anos de carreira. Atualmente trabalho como Arquiteto de Soluções em Cloud. Tenho experiência em Arquitetura de Sistemas e Infraestrutura. Minha principal área de atuação é Infraestrutura de servidores e Computação na Nuvem. Grande parte da carreira atuando em empresas do setor financeiro. Nas horas livres gosto de desenvolver protótipos com IoT, Robótica Educacional e Projetos Maker do tipo faça você mesmo.",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/leoym/"
+        }
+    },
+    {
+        "name": "Egon Hilgenstieler",
+        "photo": "egon.jpg",
+        "title": "Co-founder & CTO",
+        "company": "Focus NFe",
+        "talk": "Lições de uma plataforma que processa milhões de notas fiscais por mês na AWS",
+        "bio": "Egon Hilgenstieler é mestre em Redes de Computadores pela UFPR, cofundador e CTO da Focus NFe. Com uma abordagem hands-on, lidera o desenvolvimento de APIs que simplificam a emissão e a gestão de documentos fiscais em todo o Brasil.",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/egonhilgenstieler/"
+        }
+    },
+    {
+        "name": "Eduardo Gutkoski",
+        "photo": "eduardo.jpg",
+        "title": "Software Engineer",
+        "company": "Destrava Aí",
+        "talk": "De rotas HTTP a eventos: uma jornada prática para pensar EDA",
+        "bio": "Engenheiro de software com foco em backend, com experiência no desenvolvimento, arquitetura, segurança e manutenção de aplicações web, microsserviços e APIs de alto tráfego nos setores financeiro, educacional e cripto. Atualmente atua na Destrava AI, trabalhando com arquiteturas serverless na AWS. É AWS User Group Leader de Florianópolis e tem experiência com infraestrutura escalável e segura na AWS.",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/eduardogutkoski/"
+        }
+    },
+    {
+        "name": "Dan Rezende",
+        "photo": "dan.png",
+        "title": "Arquiteto de Soluções",
+        "company": "CloudFaster",
+        "talk": "Segurança na era do desenvolvimento com IA: Kiro e AWS Security Agent em prática",
+        "bio": "Profissional com 14 anos de mercado, Goiano, com atuação em diversos projetos de migração para AWS, projetos de modernização, otimização de custos, tendo trabalhado diretamente na AWS por 4 anos e hoje conduzindo treinamentos e projetos pela CloudFaster além de criar conteúdo para comunidade e participar ativamente na liderança do AWS User Group Goiânia.",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/danrezende/"
+        }
+    },
+    {
+        "name": "Ágata Araújo",
+        "photo": "agata.png",
+        "title": "Analista de Projetos",
+        "company": "Select Soluções",
+        "talk": "Antes do Machine Learning: construindo fundamentos sólidos na AWS para dados e IA",
+        "bio": "Minha jornada em Cloud começou através das iniciativas de capacitação da AWS, onde encontrei uma oportunidade de construir uma nova carreira na tecnologia. Sou certificada AWS e atuo em projetos envolvendo soluções em nuvem, infraestrutura, dados, segurança e inteligência artificial. Atualmente, estou aprofundando meus conhecimentos em Engenharia de Dados e Machine Learning, construindo projetos práticos na AWS para transformar aprendizado em soluções reais. Também atuo apoiando pessoas iniciantes na tecnologia, oferecendo mentorias, aulas gratuitas sobre AWS e dados, além de auxiliar na construção de currículos, LinkedIn e portfólios. Acredito que tecnologia se torna mais acessível quando compartilhamos conhecimento e criamos comunidades mais diversas.",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/agata-araujo/"
+        }
+    },
+    {
+        "name": "Roberto Rojas",
+        "photo": "roberto.jpeg",
+        "title": "Principal Solutions Architect",
+        "company": "AWS",
+        "talk": "Open Source como Base para a Era da IA: da Infraestrutura Essencial às Aplicações Agênticas",
+        "bio": "Na AWS, atua em transformações estratégicas de bancos de dados e aplicações de IA/ML para grandes clientes enterprise, com foco em setores como viagens, saúde e high tech, entregando arquiteturas de dados escaláveis que aceleram a adoção de serviços AWS. Seu trabalho une profundidade técnica e influência executiva, promovendo decisões orientadas a dados e relações de confiança com clientes.\n\nContribuiu para o crescimento das indústrias de Telco e Mídia com aplicações distribuídas e bancos NoSQL de throughput em escala global e baixa latência, usando Amazon ElastiCache e MemoryDB. É defensor do Valkey e da democratização das tecnologias de IA/ML.",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/robertolunarojas"
+        }
+    }
+]

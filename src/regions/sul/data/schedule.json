@@ -1,1 +1,93 @@
-[]
+[
+    {
+        "time": "08:00 - 09:00",
+        "title": "Welcome coffee",
+        "speaker": "",
+        "track": "Geral",
+        "level": ""
+    },
+    {
+        "time": "09:00 - 09:15",
+        "title": "Abertura oficial",
+        "speaker": "Organização",
+        "track": "Geral",
+        "level": ""
+    },
+    {
+        "time": "09:15 - 10:00",
+        "title": "Segurança na era do desenvolvimento com IA: Kiro e AWS Security Agent em prática",
+        "speaker": "Dan Rezende",
+        "track": "Palco Principal",
+        "level": ""
+    },
+    {
+        "time": "10:00 - 10:45",
+        "title": "Explorando o Streaming de Vídeo com IA e ML",
+        "speaker": "Leo Matayoshi",
+        "track": "Palco Principal",
+        "level": ""
+    },
+    {
+        "time": "10:45 - 11:30",
+        "title": "De rotas HTTP a eventos: uma jornada prática para pensar EDA",
+        "speaker": "Eduardo Gutkoski",
+        "track": "Palco Principal",
+        "level": ""
+    },
+    {
+        "time": "11:30 - 12:15",
+        "title": "Sua carreira é um sistema legado? Refatorando 30 anos de TI na era da IA",
+        "speaker": "Luciano Libardi",
+        "track": "Palco Principal",
+        "level": ""
+    },
+    {
+        "time": "12:15 - 14:00",
+        "title": "Almoço",
+        "speaker": "",
+        "track": "Geral",
+        "level": ""
+    },
+    {
+        "time": "14:00 - 14:45",
+        "title": "Previsão de demanda no varejo com AWS: lições de um projeto real com Amazon SageMaker",
+        "speaker": "Murilo Lang",
+        "track": "Palco Principal",
+        "level": ""
+    },
+    {
+        "time": "14:45 - 15:30",
+        "title": "Lições de uma plataforma que processa milhões de notas fiscais por mês na AWS",
+        "speaker": "Egon Hilgenstieler",
+        "track": "Palco Principal",
+        "level": ""
+    },
+    {
+        "time": "15:30 - 16:15",
+        "title": "Antes do Machine Learning: construindo fundamentos sólidos na AWS para dados e IA",
+        "speaker": "Ágata Araújo",
+        "track": "Palco Principal",
+        "level": ""
+    },
+    {
+        "time": "16:15 - 16:45",
+        "title": "Coffee Break",
+        "speaker": "",
+        "track": "Geral",
+        "level": ""
+    },
+    {
+        "time": "16:45 - 17:30",
+        "title": "Open Source como Base para a Era da IA: da Infraestrutura Essencial às Aplicações Agênticas",
+        "speaker": "Roberto Rojas",
+        "track": "Palco Principal",
+        "level": ""
+    },
+    {
+        "time": "17:30 - 17:45",
+        "title": "Fechamento do evento",
+        "speaker": "Organização",
+        "track": "Geral",
+        "level": ""
+    }
+]
