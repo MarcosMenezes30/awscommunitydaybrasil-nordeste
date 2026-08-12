@@ -40,5 +40,11 @@
     "logo": "sponsors/net-minas.jpeg",
     "url": "https://www.linkedin.com/company/net-mg/",
     "tier": "support"
+  },
+  {
+    "name": "ISACA",
+    "logo": "sponsors/isaca.jpeg",
+    "url": "https://www.isaca.org/",
+    "tier": "support"
   }
 ]
