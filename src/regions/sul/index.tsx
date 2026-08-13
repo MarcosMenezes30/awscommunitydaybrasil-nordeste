@@ -1,5 +1,6 @@
 import RegionPage from "@/regions/RegionPage";
 import type { Speaker } from "@/regions/types";
+import type { Sponsor } from "@/regions/types";
 import config from "./data/config.json";
 import organizers from "./data/organizers.json";
 import speakers from "./data/speakers.json";
@@ -19,7 +20,7 @@ import danPhoto from "./assets/speakers/dan.png";
 import agataPhoto from "./assets/speakers/agata.png";
 import robertoPhoto from "./assets/speakers/roberto.jpeg";
 
-import datiLogo from "./assets/sponsors/dati.png";
+import datiLogo from "./assets/sponsor/dati.png";
 
 const photoMap: Record<string, string> = {
   "daiane.jpg": daianePhoto,
