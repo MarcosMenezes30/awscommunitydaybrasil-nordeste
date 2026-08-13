@@ -19,6 +19,8 @@ import danPhoto from "./assets/speakers/dan.png";
 import agataPhoto from "./assets/speakers/agata.png";
 import robertoPhoto from "./assets/speakers/roberto.jpeg";
 
+import datiLogo from "./assets/sponsors/dati.png";
+
 const photoMap: Record<string, string> = {
   "daiane.jpg": daianePhoto,
   "leandro.jpg": leandroPhoto,
@@ -36,6 +38,10 @@ const speakerPhotoMap: Record<string, string> = {
   "roberto.jpeg": robertoPhoto,
 };
 
+const logoMap: Record<string, string> = {
+  "dati.png": datiLogo
+};
+
 const resolvedOrganizers = organizers.map((org) => ({
   ...org,
   photo: photoMap[org.photo] || org.photo,
@@ -46,13 +52,22 @@ const resolvedSpeakers: Speaker[] = speakers.map((speaker) => ({
   photo: speakerPhotoMap[speaker.photo] || speaker.photo,
 }));
 
+const resolvedSponsors: Sponsor[] = sponsors.map((sponsor) => {
+  const filename = sponsor.logo.split("/").pop() || "";
+  return {
+    ...sponsor,
+    logo: logoMap[filename] || sponsor.logo,
+    tier: sponsor.tier as Sponsor["tier"],
+  };
+});
+
 const Sul = () => (
   <RegionPage
     config={config}
     organizers={resolvedOrganizers}
     speakers={resolvedSpeakers}
     schedule={schedule}
-    sponsors={sponsors}
+    sponsors={resolvedSponsors}
     heroImage={heroImage}
   />
 );
