@@ -39,6 +39,7 @@ import joaoPhoto from "./assets/speakers/joao-cesar.jpg";
 import ricardoPhoto from "./assets/speakers/ricardo-gulias.jpg";
 import thamirisPhoto from "./assets/speakers/thamiris-adriano.jpg";
 import liviaPhoto from "./assets/speakers/livia-mor.jpg";
+import fabioVianaPhoto from "./assets/speakers/fabio-viana.jpg";
 
 import awsLogo from "./assets/sponsors/aws.png";
 import dayrellLogo from "./assets/sponsors/dayrell.png";
@@ -84,7 +85,8 @@ const speakerPhotoMap: Record<string, string> = {
   "joao-cesar.jpg": joaoPhoto,
   "ricardo-gulias.jpg": ricardoPhoto,
   "thamiris-adriano.jpg": thamirisPhoto,
-  "livia-mor.jpg": liviaPhoto
+  "livia-mor.jpg": liviaPhoto,
+  "fabio-viana.jpg": fabioVianaPhoto
 };
 
 const logoMap: Record<string, string> = {

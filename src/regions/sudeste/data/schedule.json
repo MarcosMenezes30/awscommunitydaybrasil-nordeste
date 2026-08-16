@@ -99,8 +99,8 @@
     },
     {
         "time": "14:00",
-        "title": "TBD",
-        "speaker": "TBD",
+        "title": "Como subir um cluster EKS e colocar sua aplicação no ar em menos de 20 minutos?",
+        "speaker": "Fabio Viana",
         "track": "Palco 2",
         "level": "Iniciante"
     },
