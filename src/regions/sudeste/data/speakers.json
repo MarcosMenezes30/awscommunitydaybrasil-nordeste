@@ -252,5 +252,17 @@
             "linkedin": "https://www.linkedin.com/in/liviamor/",
             "instagram": "https://www.instagram.com/liviamor/"
         }
+    },
+    {
+        "name": "Fabio Viana",
+        "photo": "fabio-viana.jpg",
+        "title": "Principal of Cloud & Security",
+        "company": "Hotmart",
+        "talk": "Como subir um cluster EKS e colocar sua aplicação no ar em menos de 20 minutos?",
+        "bio": "",
+        "keynote": false,
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/fabio-viana-0a990247/"
+        }
     }
 ]
