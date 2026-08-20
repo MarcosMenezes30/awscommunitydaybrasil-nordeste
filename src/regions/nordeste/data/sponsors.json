@@ -16,5 +16,11 @@
     "logo": "senai-cimatec.png",
     "url": "https://www.senaicimatec.com.br/",
     "tier": "support"
+  },
+  {
+    "name": "Lamit",
+    "logo": "lamit.png",
+    "url": "https://www.instagram.com/lamit.ssa/",
+    "tier": "partner"
   }
 ]
