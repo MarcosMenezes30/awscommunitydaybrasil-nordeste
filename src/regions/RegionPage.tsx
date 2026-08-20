@@ -12,6 +12,7 @@ import SponsorsSection from "./components/SponsorsSection";
 import CommunitiesSection from "./components/CommunitiesSection";
 import PhotoGalleryCard from "./components/PhotoGalleryCard";
 import OrganizersSection from "./components/OrganizersSection";
+import VolunteersSection from "./components/VolunteersSection";
 import RegionFooter from "./components/RegionFooter";
 import SeoHead from "@/components/SeoHead";
 
@@ -23,6 +24,7 @@ interface RegionPageProps {
   sponsors: Sponsor[];
   heroImage: string;
   eventPhoto?: string;
+  volunteers?: Organizer[];
 }
 
 const BASE_URL = "https://awscommunityday.com.br";
@@ -34,7 +36,7 @@ function isPastEvent(targetDate: string): boolean {
   return eventDate < today;
 }
 
-const RegionPage = ({ config, organizers, speakers, schedule, sponsors, heroImage, eventPhoto }: RegionPageProps) => {
+const RegionPage = ({ config, organizers, speakers, schedule, sponsors, heroImage, eventPhoto, volunteers }: RegionPageProps) => {
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   const past = isPastEvent(config.targetDate);
@@ -114,6 +116,7 @@ const RegionPage = ({ config, organizers, speakers, schedule, sponsors, heroImag
         <CommunitiesSection communities={config.communities || config.pastEvent?.communities || []} />
       )}
       <OrganizersSection organizers={organizers} />
+      {volunteers && volunteers.length > 0 && <VolunteersSection volunteers={volunteers} />}
       <RegionFooter config={config} />
     </div>
   );

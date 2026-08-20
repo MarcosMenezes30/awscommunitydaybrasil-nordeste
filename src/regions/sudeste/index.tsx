@@ -1,9 +1,11 @@
 import RegionPage from "@/regions/RegionPage";
+import type { Sponsor, Speaker, Organizer } from "@/regions/types";
 import config from "./data/config.json";
 import organizers from "./data/organizers.json";
 import speakers from "./data/speakers.json";
 import schedule from "./data/schedule.json";
 import sponsors from "./data/sponsors.json";
+import volunteers from "./data/volunteers.json";
 import heroImage from "./assets/postcard-bh.png";
 
 import rafaelaPhoto from "./assets/rafaela-vidotti.jpg";
@@ -119,6 +121,15 @@ const resolvedSponsors: Sponsor[] = sponsors.map((sponsor) => {
   };
 });
 
+const volunteerPhotoMap: Record<string, string> = {
+  "felipe-kiko.jpg": felipePhoto,
+};
+
+const resolvedVolunteers = volunteers.map((vol) => ({
+  ...vol,
+  photo: volunteerPhotoMap[vol.photo] || vol.photo,
+}));
+
 const Sudeste = () => (
   <RegionPage
     config={config}
@@ -126,6 +137,7 @@ const Sudeste = () => (
     speakers={resolvedSpeakers}
     schedule={schedule}
     sponsors={resolvedSponsors}
+    volunteers={resolvedVolunteers}
     heroImage={heroImage}
   />
 );
