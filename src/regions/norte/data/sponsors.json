@@ -12,6 +12,12 @@
     "tier": "silver"
   },
   {
+    "name": "Fibralink",
+    "logo": "fibralink.png",
+    "url": "https://www.fibralink.net.br",
+    "tier": "bronze"
+  },
+  {
     "name": "Faci Wyden",
     "logo": "faciwyden.png",
     "url": "https://www.faculdadeideal.com.br/",

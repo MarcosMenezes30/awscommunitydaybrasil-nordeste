@@ -2,7 +2,7 @@
   "regionName": "Norte",
   "subtitle": "O maior evento de comunidades AWS do Norte brasileiro",
   "targetDate": "2026-10-31T09:00:00-03:00",
-  "eventTime": "08h30 às 18h",
+  "eventTime": "08h às 18h",
   "heroImage": "./assets/postcard-belem.png",
   "location": {
     "venue": "Faci Wyden",
@@ -31,7 +31,7 @@
     { "name": "AWS Student Builder Group UFPA", "url": "https://www.meetup.com/aws-sbg-at-federal-university-of-para" }
   ],
   "callForSpeakersUrl": "https://abicora.com/aws-community-day-brasil-edicao-norte-belem-pa/cfp",
-  "regionDateLimit": "16/08/2026",
+  "regionDateLimit": "29/08/2026",
   "callForSponsorsUrl": "https://forms.gle/5RgK9mwAALkDT4XG6",
   "contact": {
     "email": "norte@awscommunity.com.br",
