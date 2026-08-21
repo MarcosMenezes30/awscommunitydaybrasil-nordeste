@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Fernanda Costa",
+    "photo": "fernanda-costa.jpeg",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/fernandacosta-tech",
+      "instagram": "https://www.instagram.com/fernandacosta.tech"
+    }
+  },
+  {
+    "name": "Everton Fonseca",
+    "photo": "everton-fonseca.jpeg",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/evertondvfonseca",
+      "instagram": "https://www.instagram.com/evertondvfonseca"
+    }
+  },
+  {
+    "name": "Jaqueline Silveira",
+    "photo": "jaqueline-silveira.jpeg",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/jaquelinerodriguessilveira",
+      "instagram": "https://www.instagram.com/jaquelinesiilveira"
+    }
+  },
+  {
+    "name": "Gabriela Oliveira",
+    "photo": "gabriela-oliveira.jpeg",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/gabrielao-ferreira",
+      "instagram": "https://www.instagram.com/moondevgabs"
+    }
+  },
+  {
+    "name": "Breno Carvalho",
+    "photo": "breno-carvalho.jpeg",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/brenoacarvalho"
+    }
+  },
+  {
+    "name": "Guilherme Souza",
+    "photo": "guilherme-souza.jpeg",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/guilherme-souza-abb910207"
+    }
+  }
+]

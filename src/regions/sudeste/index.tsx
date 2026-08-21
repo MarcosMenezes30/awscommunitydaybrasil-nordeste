@@ -1,10 +1,19 @@
 import RegionPage from "@/regions/RegionPage";
+import type { Sponsor, Speaker, Organizer } from "@/regions/types";
 import config from "./data/config.json";
 import organizers from "./data/organizers.json";
 import speakers from "./data/speakers.json";
 import schedule from "./data/schedule.json";
 import sponsors from "./data/sponsors.json";
+import volunteers from "./data/volunteers.json";
 import heroImage from "./assets/postcard-bh.png";
+
+import fernandaVolPhoto from "./assets/volunteers/fernanda-costa.jpeg";
+import evertonVolPhoto from "./assets/volunteers/everton-fonseca.jpeg";
+import jaquelineVolPhoto from "./assets/volunteers/jaqueline-silveira.jpeg";
+import gabrielaVolPhoto from "./assets/volunteers/gabriela-oliveira.jpeg";
+import brenoVolPhoto from "./assets/volunteers/breno-carvalho.jpeg";
+import guilhermeVolPhoto from "./assets/volunteers/guilherme-souza.jpeg";
 
 import rafaelaPhoto from "./assets/rafaela-vidotti.jpg";
 import flavioPhoto from "./assets/flavio-pimenta.jpg";
@@ -119,6 +128,20 @@ const resolvedSponsors: Sponsor[] = sponsors.map((sponsor) => {
   };
 });
 
+const volunteerPhotoMap: Record<string, string> = {
+  "fernanda-costa.jpeg": fernandaVolPhoto,
+  "everton-fonseca.jpeg": evertonVolPhoto,
+  "jaqueline-silveira.jpeg": jaquelineVolPhoto,
+  "gabriela-oliveira.jpeg": gabrielaVolPhoto,
+  "breno-carvalho.jpeg": brenoVolPhoto,
+  "guilherme-souza.jpeg": guilhermeVolPhoto,
+};
+
+const resolvedVolunteers = volunteers.map((vol) => ({
+  ...vol,
+  photo: volunteerPhotoMap[vol.photo] || vol.photo,
+}));
+
 const Sudeste = () => (
   <RegionPage
     config={config}
@@ -126,6 +149,7 @@ const Sudeste = () => (
     speakers={resolvedSpeakers}
     schedule={schedule}
     sponsors={resolvedSponsors}
+    volunteers={resolvedVolunteers}
     heroImage={heroImage}
   />
 );
