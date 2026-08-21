@@ -8,6 +8,13 @@ import sponsors from "./data/sponsors.json";
 import volunteers from "./data/volunteers.json";
 import heroImage from "./assets/postcard-bh.png";
 
+import fernandaVolPhoto from "./assets/volunteers/fernanda-costa.jpeg";
+import evertonVolPhoto from "./assets/volunteers/everton-fonseca.jpeg";
+import jaquelineVolPhoto from "./assets/volunteers/jaqueline-silveira.jpeg";
+import gabrielaVolPhoto from "./assets/volunteers/gabriela-oliveira.jpeg";
+import brenoVolPhoto from "./assets/volunteers/breno-carvalho.jpeg";
+import guilhermeVolPhoto from "./assets/volunteers/guilherme-souza.jpeg";
+
 import rafaelaPhoto from "./assets/rafaela-vidotti.jpg";
 import flavioPhoto from "./assets/flavio-pimenta.jpg";
 import alexandrePhoto from "./assets/alexandre-ballestero-paula.jpg";
@@ -122,7 +129,12 @@ const resolvedSponsors: Sponsor[] = sponsors.map((sponsor) => {
 });
 
 const volunteerPhotoMap: Record<string, string> = {
-  "felipe-kiko.jpg": felipePhoto,
+  "fernanda-costa.jpeg": fernandaVolPhoto,
+  "everton-fonseca.jpeg": evertonVolPhoto,
+  "jaqueline-silveira.jpeg": jaquelineVolPhoto,
+  "gabriela-oliveira.jpeg": gabrielaVolPhoto,
+  "breno-carvalho.jpeg": brenoVolPhoto,
+  "guilherme-souza.jpeg": guilhermeVolPhoto,
 };
 
 const resolvedVolunteers = volunteers.map((vol) => ({
