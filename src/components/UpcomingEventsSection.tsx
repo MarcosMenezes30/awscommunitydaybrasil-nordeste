@@ -54,7 +54,7 @@ function getUpcoming() {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   return allEditions
-    .filter((e) => new Date(e.date) >= today)
+    .filter((e) => new Date(e.date + "T23:59:59") >= today)
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 }
 
@@ -62,7 +62,7 @@ function getPast() {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   return allEditions
-    .filter((e) => new Date(e.date) < today)
+    .filter((e) => new Date(e.date + "T23:59:59") < today)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
