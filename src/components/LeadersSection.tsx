@@ -72,9 +72,10 @@ function parseDate(dateStr: string): Date {
 
 function isPastEvent(dateStr: string): boolean {
   const eventDate = parseDate(dateStr);
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  return eventDate < today;
+  // Consider the event as "past" only after the event day ends
+  eventDate.setHours(23, 59, 59, 999);
+  const now = new Date();
+  return eventDate < now;
 }
 
 const LeaderCard = ({

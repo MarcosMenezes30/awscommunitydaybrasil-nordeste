@@ -31,9 +31,11 @@ const BASE_URL = "https://awscommunityday.com.br";
 
 function isPastEvent(targetDate: string): boolean {
   const eventDate = new Date(targetDate);
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  return eventDate < today;
+  // Consider the event as "past" only after the event day ends (next day midnight)
+  const endOfEventDay = new Date(eventDate);
+  endOfEventDay.setHours(23, 59, 59, 999);
+  const now = new Date();
+  return endOfEventDay < now;
 }
 
 const RegionPage = ({ config, organizers, speakers, schedule, sponsors, heroImage, eventPhoto, volunteers }: RegionPageProps) => {
