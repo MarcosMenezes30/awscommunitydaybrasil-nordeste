@@ -4,8 +4,24 @@
     "photo": "arthur-gabriel.jpg"
   },
   {
+    "name": "Eder Natan",
+    "photo": "eder-natan.png"
+  },
+  {
     "name": "Edwu Morais",
     "photo": "edwu-morais.jpg"
+  },
+  {
+    "name": "Julia Tizuey",
+    "photo": "julia-tizuey.jpg"
+  },
+  {
+    "name": "Lilian Gobi",
+    "photo": "lilian-gobi.jpg"
+  },
+  {
+    "name": "Mariana Barreto",
+    "photo": "mariana-barreto.jpg"
   },
   {
     "name": "Pedro Henrique",
@@ -14,5 +30,9 @@
   {
     "name": "Raphael Teixeira",
     "photo": "raphael-teixeira.png"
+  },
+  {
+    "name": "Rodrigo Haum",
+    "photo": "rodrigo-haum.jpg"
   }
 ]
