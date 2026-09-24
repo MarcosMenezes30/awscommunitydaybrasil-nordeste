@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "name": "Arthur Gabriel",
+    "photo": "arthur-gabriel.jpg"
+  },
+  {
+    "name": "Edwu Morais",
+    "photo": "edwu-morais.jpg"
+  },
+  {
+    "name": "Pedro Henrique",
+    "photo": "pedro-henrique.png"
+  },
+  {
+    "name": "Raphael Teixeira",
+    "photo": "raphael-teixeira.png"
+  }
+]
